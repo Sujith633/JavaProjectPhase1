@@ -22,6 +22,7 @@ public class Phaseone {
 			System.out.println("2 - For Performing the File Operations");
 			System.out.println("3 - For Exit");
 			System.out.println("4 - For printing existing files");
+			System.out.println("-----------------------------------------------");
 			try {
 				int ch = obj.nextInt();
 				switch (ch) {
@@ -33,6 +34,7 @@ public class Phaseone {
 					System.out.println("1 - Add File");
 					System.out.println("2 - Remove File");
 					System.out.println("3 - Search File");
+					System.out.println("-----------------------------------------------");
 
 					int ch2 = obj.nextInt();
 					Scanner obj1 = new Scanner(System.in);
@@ -53,6 +55,7 @@ public class Phaseone {
 					}
 					break;
 				case 3:
+					System.out.println("The program is Terminated");
 					System.exit(0);
 					break;
 				case 4:

@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.TreeSet;
 
 public class Files {
-	ArrayList<String> arr = new ArrayList<String>();
+	ArrayList<String> arr = new ArrayList<String>(Arrays.asList("file1","Sujith","Raj"));
 	
 	public void sort() {
 		if(arr.size()>0) {
@@ -53,6 +53,9 @@ public class Files {
 		}
 	}
 	public void print(){
+		System.out.println("-----------------------------------------------");
 		System.out.println(arr);
+		System.out.println("-----------------------------------------------");
+
 	}
 }
